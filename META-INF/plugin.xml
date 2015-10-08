@@ -1,0 +1,53 @@
+<idea-plugin version="2">
+    <id>pro.alex_zaitsev.androidstyler</id>
+    <name>Android Styler</name>
+    <version>1.0</version>
+    <vendor email="alex.zaitsev.pro@gmail.com" url="http://www.alex-zaitsev.pro">Alex Zaitsev</vendor>
+
+    <description><![CDATA[
+      This plugin will save you a lot of time if you work with android layouts. You can easily create styles from view attributes.<br><br>
+      Usage:<br>
+      1. copy lines with future style from your layout.xml file<br>
+      2. paste it to styles.xml file with Ctrl+Shift+D<br>
+      3. enter name of new style in the modal window<br>
+      4. your style is prepared!<br><br>
+    ]]></description>
+
+    <change-notes><![CDATA[
+      Pilot release.
+    ]]>
+    </change-notes>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+    <idea-version since-build="131"/>
+
+    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+         on how to target different products -->
+    <!-- uncomment to enable plugin in all products
+    <depends>com.intellij.modules.androidstudio</depends>
+    -->
+
+    <extensions defaultExtensionNs="com.intellij">
+        <!-- Add your extensions here -->
+    </extensions>
+
+    <application-components>
+        <!-- Add your application components here -->
+    </application-components>
+
+    <project-components>
+        <!-- Add your project components here -->
+    </project-components>
+
+    <actions>
+        <!-- Add your actions here -->
+        <action id="3421" class="pro.alex_zaitsev.androidstyler.PasteAction" text="Paste Style"
+                description="Paste Style">
+            <add-to-group group-id="EditorPopupMenu" anchor="after" relative-to-action="PasteMultiple"/>
+            <add-to-group group-id="ConsoleView.PopupMenu" anchor="after" relative-to-action="ConsoleView.Copy"/>
+            <add-to-group group-id="EditorActions" anchor="first"/>
+            <keyboard-shortcut keymap="$default" first-keystroke="ctrl shift D"/>
+        </action>
+    </actions>
+
+</idea-plugin>
