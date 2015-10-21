@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>pro.alex_zaitsev.androidstyler</id>
     <name>Android Styler</name>
-    <version>1.0</version>
+    <version>1.0.1</version>
     <vendor email="alex.zaitsev.pro@gmail.com" url="http://www.alex-zaitsev.pro">Alex Zaitsev</vendor>
 
     <description><![CDATA[
@@ -14,7 +14,7 @@
     ]]></description>
 
     <change-notes><![CDATA[
-      Pilot release.
+      1.0.1 - Fix compatibility to make available for Android Studio
     ]]>
     </change-notes>
 
@@ -22,8 +22,8 @@
     <idea-version since-build="131"/>
 
     <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
-         on how to target different products -->
-    <depends>com.intellij.modules.androidstudio</depends>
+        on how to target different products -->
+    <depends>com.intellij.modules.lang</depends>
 
     <extensions defaultExtensionNs="com.intellij">
         <!-- Add your extensions here -->
