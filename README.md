@@ -15,6 +15,10 @@ Download from JetBrains Plugin Repository: https://plugins.jetbrains.com/plugin/
 
 ####Changelog
 
+#####Version: 1.0.1
+
+  * Fix compatibility to make available for Android Studio
+
 #####Version: 1.0
 
   * Pilot version
