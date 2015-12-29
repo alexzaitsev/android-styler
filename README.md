@@ -1,6 +1,6 @@
 [![Android Arsenal](https://img.shields.io/badge/Android%20Arsenal-Android%20Styler-green.svg?style=flat)](https://android-arsenal.com/details/1/2706)
 # Android Styler
-#### This plugin will save you a lot of time if you work with android layouts. You can easily create styles from view attributes. 
+#### This plugin will save you a lot of time if you work with android layouts. You can easily create styles from view attributes. Check out [article](https://yalantis.com/blog/android-studio-plugin-development/) about this plugin.
 
 Download from JetBrains Plugin Repository: https://plugins.jetbrains.com/plugin/7972
 
